@@ -1,0 +1,81 @@
+section{
+    flex: 1;
+    background: #ebebeb;
+    overflow: auto;
+    width: 100%;
+    position: absolute;
+    top: 0.5rem;
+  }
+  
+  section .list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section .list li{
+    width: 2.86rem;
+    height: 2.11rem;
+    box-shadow: 0.01rem 0.01rem 0.01rem 0.01rem #e5e5e5;
+    margin-top: 0.18rem;
+  }
+  section .list li img{
+    width: 100%;
+    height: 1.6rem;
+  }
+  section .list li .msg{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.15rem;
+    padding-top: 0.13rem;
+    height: 0.5rem;
+    font-size: 12px;
+  }
+  section .list li .msg .left{
+    line-height: 0.16rem;
+  }
+  section .list li .msg .left p:nth-child(1){
+    color: #333;
+  }
+  section .list li .msg .left p:nth-child(2){
+    color: #9a9a9a;
+  }
+  section .list li .msg .right{
+    color: #f78360;
+    font-size: 20px;
+  }
+  section .list li:last-child{
+    width: 1.58rem;
+    height: 0.28rem;
+    border: 1px solid #aaaaaa;
+    border-radius: 0.14rem;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 12px;
+    color: #616161;
+    
+  }
+  section .line{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #a8a8a8;
+    align-items: center;
+    margin: 0.45rem 0;
+  }
+  
+  section .line  p{
+    width: 0.65rem;
+    height: 0.2rem;
+    background: #a7a7a7;
+    color: #fff;
+    text-align: center;
+    line-height: 0.2rem;
+    border-radius: 0.03rem;
+    font-size: 12px;
+    margin-top: -0.11rem;
+    margin-left: 1.28rem;
+  }
+  
+  section .list:nth-of-type(2) li:last-child{
+    margin-bottom: 0.3rem;
+  }
